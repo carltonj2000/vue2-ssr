@@ -1,0 +1,23 @@
+{
+  "name": "vue2-ssr",
+  "version": "1.0.0",
+  "description": "Vue 2 SSR",
+  "main": "index.js",
+  "scripts": {
+    "inst": "node ./examples/vue-instance.js",
+    "server1": "node ./examples/server1.js",
+    "server2": "node ./examples/server2.js",
+    "server3": "nodemon --watch ./examples ./examples/server3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-server-renderer": "^2.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
